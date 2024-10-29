@@ -35,7 +35,7 @@ liveboard:
           "y":
           - Total Discount
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Color\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"9de187e0-ee6c-49d4-a72a-e8594c11af92\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"3caf9d76-1ad5-4c9b-9008-15c2a28cb770\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Color\",\"columnProperty\": {}},{\"columnId\": \"Total Discount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"488d8c29-2d6d-4cfb-9f86-0b1e63000a8f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"99fa0018-35c3-4380-9ab8-c1cfce3a6e4f\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Color\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: 723cd399-ecb8-465c-b40a-fc76d8670389
   layout:
