@@ -4,35 +4,37 @@ liveboard:
   visualizations:
   - id: Viz_1
     answer:
-      name: Total Discount by Color
+      name: Total Discount by Category
       tables:
       - id: Parameters WS
         name: Parameters WS
         fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
-      search_query: "[Discount] [Color]"
+      search_query: "[Discount] [Category]"
       answer_columns:
-      - name: Color
+      - name: Category
       - name: Total Discount
       table:
         table_columns:
-        - column_id: Color
+        - column_id: Category
           headline_aggregation: COUNT_DISTINCT
         - column_id: Total Discount
           headline_aggregation: SUM
         ordered_column_ids:
-        - Color
+        - Category
         - Total Discount
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}}]}"
       chart:
         type: COLUMN
         chart_columns:
-        - column_id: Color
+        - column_id: Category
         - column_id: Total Discount
         axis_configs:
         - x:
-          - Color
+          - Category
           "y":
           - Total Discount
         client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Category\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b08c47d5-bffb-48c9-8019-fa2eafe38d8c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"db5650f2-dee9-4729-b39a-70ec19ca98b1\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Category\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Discount\",\"color\": \"#747E8C\"}]}"
       display_mode: CHART_MODE
     viz_guid: 84ce80b5-2bdf-45c6-8fec-ef63438f05ff
