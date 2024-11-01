@@ -9,18 +9,18 @@ liveboard:
       - id: (Sample) Retail - Apparel
         name: (Sample) Retail - Apparel
         fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
-      search_query: "[quantity purchased] [city]"
+      search_query: "[quantity purchased] [latitude]"
       answer_columns:
       - name: Total quantity purchased
-      - name: city
+      - name: latitude
       table:
         table_columns:
         - column_id: Total quantity purchased
           show_headline: false
-        - column_id: city
+        - column_id: latitude
           show_headline: false
         ordered_column_ids:
-        - city
+        - latitude
         - Total quantity purchased
         client_state: ""
         client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
@@ -28,14 +28,14 @@ liveboard:
         type: COLUMN
         chart_columns:
         - column_id: Total quantity purchased
-        - column_id: city
+        - column_id: latitude
         axis_configs:
         - x:
-          - city
+          - latitude
           "y":
           - Total quantity purchased
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0c32351c-80ec-4020-bc4e-49bf7344668d\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": false}},{\"id\": \"d09adcd1-be41-4929-9aef-b66e0649545c\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"city\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total quantity purchased\",\"color\": \"#FF8142\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}},{\"columnId\": \"latitude\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"49a365e6-5b34-4d23-a8a7-e4495dc12fee\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": false}},{\"id\": \"ffcc818d-4730-4bf6-a8c8-ed265f2fa5e7\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"latitude\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total quantity purchased\",\"color\": \"#FF8142\"}]}"
       display_mode: CHART_MODE
     viz_guid: 40b1b632-2bef-4f65-ad29-c26ed02c0209
   layout:
